@@ -1,0 +1,41 @@
+{
+  "name": "standards-mcp",
+  "version": "0.1.0",
+  "description": "MCP server that serves a portable, brand-neutral engineering standards library (architecture, security, API, gRPC, compression, validation, options, messaging, UI/UX, MCP policy) so any AI agent can search and apply the rules over MCP instead of reading files.",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "engineering-standards",
+    "coding-standards",
+    "dotnet",
+    "clean-architecture",
+    "ai",
+    "claude"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "standards-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "standards",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}
