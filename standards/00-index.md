@@ -31,6 +31,7 @@
 | [11-configuration-options.md](11-configuration-options.md) | Konfiqurasiya & Options — typed options, ValidateOnStart, AOT source-gen, secrets, feature flags |
 | [12-background-messaging.md](12-background-messaging.md) | Background jobs & messaging — BackgroundService, outbox, idempotent consumer, retry/DLQ |
 | [13-mcp-tools.md](13-mcp-tools.md) | MCP alətləri & alət siyasəti — MCP-first, kateqoriyalar, AG Grid MCP konfiqi |
+| [14-design-skills.md](14-design-skills.md) | Dizayn skilləri & tətbiq axını — taste-skills (məcburi), web-design-guidelines yoxlama qapısı, ~67 stil skill-i |
 
 ## NƏ ÇIXARILIB (bu profildə YOXDUR / opsionaldır)
 

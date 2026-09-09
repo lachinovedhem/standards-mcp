@@ -30,7 +30,7 @@ const names = (list.result?.tools ?? []).map((t) => t.name).sort();
 check("4 tools", names.length === 4, names.join(","));
 
 const listed = await call("list_standards", {});
-check("list_standards has 13", (listed.match(/^- \*\*\d/gm) ?? []).length === 13, `${(listed.match(/^- \*\*\d/gm) ?? []).length}`);
+check("list_standards has 14", (listed.match(/^- \*\*\d/gm) ?? []).length === 14, `${(listed.match(/^- \*\*\d/gm) ?? []).length}`);
 
 const s1 = await call("search_standards", { query: "dapper aot oracle returning", limit: 4 });
 check("search finds architecture", s1.includes("02") && /RETURNING|Dapper/i.test(s1));

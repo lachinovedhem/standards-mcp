@@ -13,13 +13,15 @@ Standards only help if they're actually applied. Bundling them into an MCP serve
 docs" into a tool call: the agent searches the rules relevant to the task and applies them — the same
 pattern the [AG Grid MCP](https://github.com/ag-grid/ag-mcp) uses for its own docs.
 
-## What's inside (14 standards)
+## What's inside (15 standards)
 
 `00-index`, `01-golden-rules`, `02-architecture` (.NET AOT + Dapper.AOT, Clean Architecture, gRPC,
 streaming, caching, resilience), `03-security`, `04-api-i18n-privacy`, `05-devops-test-observability`,
 `06-optional-sso-audit`, `07-ui-ux` (AG Grid vs tile card, design tokens, PWA), `08-grpc`,
 `09-compression-caching`, `10-validation-errors`, `11-configuration-options`, `12-background-messaging`,
-`13-mcp-tools`. All brand-neutral; identity (hosts, keys, colors, fonts) is config, never hardcoded.
+`13-mcp-tools`, `14-design-skills` (taste-skill build step, mandatory web-design-guidelines review
+gate, ~67 installable style skills). All brand-neutral; identity (hosts, keys, colors, fonts) is
+config, never hardcoded.
 
 ## Tools
 
