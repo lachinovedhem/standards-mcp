@@ -7,6 +7,23 @@
 > Bu standart [07-ui-ux.md](07-ui-ux.md)-i əvəz etmir, onu **tamamlayır**: §07 struktur və
 > token qaydalarını, bu standart isə **iş axını və skill seçimini** təyin edir.
 
+## 0. Skill istifadəsi (MƏCBURİ — bütün tapşırıqlara aiddir)
+
+Quraşdırılmış **hər skill uyğun gələndə istifadə olunmalıdır** — skillər opsional əlavə deyil. İstənilən
+tapşırıqdan əvvəl uyğun skill varmı yoxla və varsa `Skill` aləti ilə **əvvəlcə** onu çağır, sonra yaddaşdan
+iş görmə. Tam kataloq `SKILLS.md`-dədir (DevExpress çıxarılmaqla).
+
+- **Dizayn / UI / frontend** → dizayn skilləri məcburidir (aşağıdakı §1–§4).
+- **Sənədlər** → `docx` / `pdf` / `pptx` / `xlsx`; təqdimat → `slides`.
+- **Chart / dashboard / data vizualizasiya** → chart kodundan əvvəl `dataviz`.
+- **Animasiya / motion** → `animate` (web) və ya `animate-expo` (RN/Expo).
+- **Kod review / təmizləmə / təhlükəsizlik** → `code-review`, `simplify`, `security-review`.
+- **Artefakt (nəşr olunan web səhifə)** → `artifact-design` (+ `artifact-capabilities` / `artifact-diagramming`).
+- Skillər mühəndislik standartlarını (01–14) və yoxlama qapısını **əvəz etmir**, tamamlayır.
+
+> Qeyd: skillər yerli mühitə (`.agents/skills/` + plugin) aiddir. Bu MCP həmin siyasəti **sənədləşdirir**;
+> agent uyğun skilləri faktiki yerli mühitdə çağırır.
+
 ## 1. Məcburi dizayn axını
 
 Dizayn/UI tapşırığı üçün ardıcıllıq:

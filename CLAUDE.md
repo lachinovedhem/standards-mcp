@@ -1,5 +1,25 @@
 # Project rules
 
+## Skills usage (MANDATORY — applies to ALL tasks)
+
+Every installed skill must be used whenever it is relevant — skills are not optional extras. Before
+producing output for any task, check whether a matching skill exists and, if so, invoke it via the
+Skill tool first. The full catalog of available skills (excluding DevExpress) is in [SKILLS.md](SKILLS.md).
+
+Rules:
+
+- **Check first, then act.** For any task, match it to a skill in `SKILLS.md` and load that skill
+  before doing the work from memory.
+- **Design/UI/frontend** → the design skills are mandatory (see the Design section below).
+- **Documents** → `docx` / `pdf` / `pptx` / `xlsx` for those file types; `slides` for presentations.
+- **Charts / dashboards / any data visualization** → `dataviz` before writing chart code.
+- **Animation / motion** → `animate` (web) or `animate-expo` (React Native/Expo).
+- **Code review / cleanup / security** → `code-review`, `simplify`, `security-review`.
+- **Artifacts (published web pages)** → `artifact-design`, and `artifact-capabilities` / `artifact-diagramming` as needed.
+- **Anything else with a matching skill** → use it. If unsure whether a skill fits, prefer using it over guessing.
+- Skills **complement**, they do not replace, the engineering standards (standards 01–14) or the
+  mandatory design review gate.
+
 ## Design (MANDATORY)
 
 Any design, UI, frontend, or visual work in this project **must** apply the taste-skills installed under `.agents/skills/`. This is not optional — invoke the relevant skill via the Skill tool before producing design output.
