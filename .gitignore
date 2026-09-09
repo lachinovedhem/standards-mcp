@@ -2,6 +2,5 @@ node_modules/
 dist/
 *.tsbuildinfo
 
-# Vendored skill trees (reproducible via skills-lock.json); keep repo slim
-.agents/
+# Local agent state (not part of the repo)
 .claude/
